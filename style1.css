@@ -1,0 +1,392 @@
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+  background-image: url("https://i.pinimg.com/736x/3a/fd/b9/3afdb959f2fd40418bce0112dbe1e056.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+}
+
+
+body {
+    background-color: #FFFDD0
+    font-family: Georgia, serif;
+    color: #452514;
+    letter-spacing: 2px;
+}
+
+
+
+
+.RRO-container {
+    width: 90%;
+    max-width: 950px;
+    margin: 35px auto;
+}
+
+
+
+
+.RRO-profile {
+    background-color: #71572b;
+    border-radius: 35px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+
+
+
+.RRO-profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: white;
+}
+
+
+
+
+.RRO-profile-info h1 {
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.RRO-profile-info p {
+    font-size: 20px;
+    margin: 8px 0;
+}
+
+
+
+
+.RRO-introduction {
+    background-color: #b89750;
+    border-radius: 30px;
+    padding: 15px;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 17px;
+}
+
+
+
+
+.RRO-hobbies h2 {
+    background-color: #cfc98b;
+    border-radius: 30px;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.RRO-hobby-list {
+    display: flex;
+    gap: 30px;
+}
+
+
+
+
+.RRO-hobby-column {
+    flex: 1;
+}
+
+
+
+
+.RRO-hobby-item {
+    background-color: #ab975a;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin: 10px 0 10px 25px;
+    position: relative;
+    font-size: 16px;
+}
+
+
+
+
+.RRO-hobby-item::before {
+    content: "";
+    position: absolute;
+    background-color: #d29913;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    left: -28px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+
+.RRO-favorite-song {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin: 30px 20px;
+}
+
+
+
+
+.RRO-song-img {
+    width: 45%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 15px;
+    background-color: #f3903a;
+}
+
+
+
+
+.RRO-song-info {
+    flex: 1;
+}
+
+
+
+
+.RRO-song-info h2 {
+    background-color: #9b7739;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+
+
+.RRO-song-info p {
+    background-color: #c7a851;
+    border-radius: 25px;
+    padding: 9px 15px;
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+
+
+
+.RRO-idols {
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+
+
+.RRO-idols > h2:first-child {
+    background-color: #d09b40;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+
+
+.RRO-idol-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    margin: 40px 0 25px;
+}
+
+
+
+
+.RRO-idol-item {
+    width: 30%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+
+
+
+.RRO-idol-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+.RRO-idols .RRO-reason-title {
+    background-color: #966945;
+    border-radius: 25px;
+    width: 35%;
+    margin: 25px auto;
+    padding: 10px;
+    font-size: 17px;
+}
+
+
+
+
+.RRO-reason {
+    background-color: #b97d48;
+    border-radius: 25px;
+    padding: 13px;
+    margin: 15px 25px;
+    font-size: 16px;
+}
+
+
+
+
+.RRO-reason-small {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+
+
+
+    .RRO-profile {
+        padding: 18px;
+        gap: 15px;
+    }
+
+
+
+
+    .RRO-profile-img {
+        width: 110px;
+        height: 110px;
+    }
+
+
+
+
+    .RRO-profile-info h1 {
+        font-size: 17px;
+    }
+
+
+
+
+    .RRO-profile-info p {
+        font-size: 13px;
+    }
+
+
+
+
+    .RRO-introduction {
+        font-size: 13px;
+    }
+
+
+
+
+    .RRO-hobby-list {
+        gap: 15px;
+    }
+
+
+
+
+    .RRO-hobby-item {
+        font-size: 11px;
+        padding: 10px;
+    }
+
+
+
+
+    .RRO-favorite-song {
+        gap: 12px;
+        margin: 25px 5px;
+    }
+
+
+
+
+    .RRO-song-img {
+        width: 42%;
+        height: 160px;
+    }
+
+
+
+
+    .RRO-song-info h2 {
+        font-size: 12px;
+    }
+
+
+
+
+    .RRO-song-info p {
+        font-size: 10px;
+        padding: 8px;
+    }
+
+
+
+
+    .RRO-idol-list {
+        gap: 12px;
+    }
+
+
+
+
+    .RRO-idols .RRO-reason-title {
+        width: 55%;
+    }
+
+
+
+
+    .RRO-reason {
+        font-size: 12px;
+    }
+
+
+
+
+    .RRO-reason 2 {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+}
+
+
+
+
+
